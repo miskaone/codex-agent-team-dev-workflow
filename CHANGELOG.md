@@ -23,7 +23,6 @@ All notable changes to this project will be documented in this file.
 - `SKILL.md` frontmatter version bumped to `1.2.0`
 
 ## [1.1.0] - 2026-02-21
-## [1.1.0] - 2026-02-21
 
 ### Added
 - Added MIT license support to the repository.
