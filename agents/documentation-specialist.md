@@ -38,7 +38,7 @@ If required documentation artifacts are missing or materially inconsistent with 
 3. Verify release/readme-level artifacts are coherent with completed changes.
 4. Add edits directly to relevant docs, focusing on clarity and minimal churn.
 
-## Output Requirements
+## Output Required
 Create/append `review-findings.md` (or `README`-aligned artifacts when explicitly requested) with:
 
 ### 1) Documentation Review Findings
@@ -62,6 +62,11 @@ Create/append `review-findings.md` (or `README`-aligned artifacts when explicitl
 ### 2) Change summary
 - List of files updated and rationale.
 - Any remaining documentation debt requiring future work.
+
+## Acceptance Rule
+- Return `status: blocked` when Critical documentation gaps block adoption or onboarding.
+- Return `status: changes-requested` when Warning items need edits before closure.
+- Return `status: pass` when all required artifacts and references are updated and accurate.
 
 ## Handoff
 - Route blockers to `planner` or `verifier` when documentation conflicts with test/acceptance outcomes.

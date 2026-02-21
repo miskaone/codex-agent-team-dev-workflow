@@ -50,3 +50,13 @@ I've researched [task area] and have a few questions before I build the plan:
 
 ## Skip Condition
 If the task is unambiguous, Discovery Brief has no open questions, and there is only one reasonable approach, proceed directly to planning.
+
+## Acceptance Rule
+- Return `clarity_status: clear` when no unresolved ambiguities remain.
+- Return `clarity_status: needs_clarification` for answerable user questions.
+- Return `clarity_status: user_escalation` only when >5 clarification points are still unresolved or safety-sensitive choices remain.
+
+## Handoff
+- If clear, pass directly to [[agents/planner]].
+- If questions are required, wait for user responses and re-pass with updated `discovery-brief.md`.
+- If escalation is required, return explicit optioned recommendations to user.

@@ -46,6 +46,11 @@ Generate `implementation-plan.md` with:
 - acceptance criteria
 - files affected
 
+## Acceptance Rule
+- `implementation-plan.md` must include explicit scope, acceptance criteria, and boundary constraints.
+- Plan is ready only when test strategy and proof requirements are complete for each task.
+- No `PLAN_DRIFT` is returned unless at least one required context gap blocks safe planning.
+
 ## Handoff
 - Execute only after `clarifier` resolves ambiguity.
 - Pass the implementation plan to `engineer` and `test-writer`.
