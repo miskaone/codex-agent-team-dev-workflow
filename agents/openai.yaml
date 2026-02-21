@@ -1,0 +1,15 @@
+interface:
+  display_name: "Agent Team Dev Workflow"
+  short_description: "Six-phase engineering cycle with specialized agent teams"
+  default_prompt: "Use this skill to orchestrate a structured development workflow: Discover → Plan → Work → Test → Review → Compound. Each phase uses specialized agents."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "exa"
+      description: "Web search for external best practices and documentation"
+      transport: "streamable_http"
+      url: "https://mcp.exa.ai/mcp"
