@@ -1,0 +1,27 @@
+name: Package release artifact
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create release zip
+        run: |
+          zip -r codex-agent-team-dev-workflow.zip . \
+            -x '.git/*' '.github/workflows/*'
+
+      - name: Upload zip to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: codex-agent-team-dev-workflow.zip
