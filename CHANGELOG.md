@@ -1,0 +1,26 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## Unreleased
+
+- No unreleased changes yet.
+
+## [1.1.0] - 2026-02-21
+
+### Added
+- Added MIT license support to the repository.
+- Added Skill Graph documentation structure including agent and phase nodes.
+- Added new workflow agent definitions for: architecture reviewer, clarifier, code-quality reviewer, engineer, knowledge-compounder, planner, research-scout, security-reviewer, test-writer, and verifier.
+
+### Changed
+- Updated existing workflow reference files and templates in `README`, `SKILL.md`, and multiple `references/*.md` documents.
+- Added `version`, `last_updated`, and `status` metadata fields to `SKILL.md` frontmatter.
+
+### Fixed
+- Consolidated and cleaned workflow docs and skill structure for public use.
+
+## [1.0.0] - 2026-02-21
+
+### Added
+- Initial release of the codex agent team development workflow with foundational documentation.

@@ -4,6 +4,9 @@ description: >
   Six-phase graph-based development workflow:
   Discover → Plan → Work → Test → Review → Compound.
   Trigger on build, fix, implement, refactor, and code-change tasks.
+version: 1.1.0
+last_updated: 2026-02-21
+status: production-ready
 ---
 
 # Agent Team Development Workflow
