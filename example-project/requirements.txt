@@ -1,0 +1,1 @@
+# Minimal – add typer or rich later via workflow

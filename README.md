@@ -20,13 +20,13 @@ This repository contains a self-contained Codex skill bundle for the **agent-tea
 From your Codex home (or skill manager root), install this skill path into your local skill index:
 
 ```bash
-cp -R /Users/michaellydick/dev/codex-agent-team-dev-workflow "$CODEX_HOME/skills/agent-team-dev-workflow"
+cp -R . "$CODEX_HOME/skills/agent-team-dev-workflow"
 ```
 
 Or run the included helper:
 
 ```bash
-cd /Users/michaellydick/dev/codex-agent-team-dev-workflow
+cd "$(git rev-parse --show-toplevel)"
 ./scripts/install-local.sh
 ```
 ### Shared-host install (recommended)
