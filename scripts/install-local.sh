@@ -10,5 +10,9 @@ if [ -d "$DEST" ]; then
   rm -rf "$DEST"
 fi
 
-cp -R "$ROOT_DIR" "$DEST"
+mkdir -p "$DEST"
+rsync -a --delete \
+  --exclude='.git' \
+  --exclude='.gitignore' \
+  "$ROOT_DIR/" "$DEST/"
 echo "Installed agent-team-dev-workflow to $DEST"
