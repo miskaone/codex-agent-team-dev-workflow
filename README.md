@@ -23,6 +23,35 @@ Or run the included helper:
 cd /Users/michaellydick/dev/codex-agent-team-dev-workflow
 ./scripts/install-local.sh
 ```
+### Shared-host install (recommended)
+
+If the repo is hosted in git, use the remote installer so any machine can bootstrap:
+
+```bash
+cd /path/to/codex-agent-team-dev-workflow
+./scripts/install-remote.sh <git-repo-url>
+```
+
+Example:
+
+```bash
+./scripts/install-remote.sh git@github.com:you/agency-os-codex-skills.git
+```
+
+If you prefer a fixed shared location, set `AGENT_TEAM_DEV_WORKFLOW_REPO_URL` and run:
+
+```bash
+export AGENT_TEAM_DEV_WORKFLOW_REPO_URL=git@github.com:you/agency-os-codex-skills.git
+./scripts/install-remote.sh
+```
+
+You can also pass an alternate CODEX home as the second argument:
+
+```bash
+./scripts/install-remote.sh git@github.com:you/agency-os-codex-skills.git /path/to/other/.codex
+```
+
+## Multi-host usage notes
 
 Then in project `AGENTS.md`/`README` references, this skill can be referenced by name.
 
