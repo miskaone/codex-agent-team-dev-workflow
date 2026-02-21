@@ -62,11 +62,18 @@ You can also pass an alternate CODEX home as the second argument:
 1. Open any Codex workspace
 2. Create or navigate to a project folder
 3. Say or type:  
-   `use agent-team-dev-workflow to add priority field to my todo CLI`
+ `use agent-team-dev-workflow to add priority field to my todo CLI`
 4. Watch the full 6-phase cycle run automatically
 5. Check `.workflow/current/` and the updated `LEARNINGS.md`
 
 See [`example-project/`](./example-project/) for a complete working example.
+
+## Scientific Inspiration
+
+This skill is inspired by the paper “Multi-agent cooperation through in-context co-player inference” (arXiv:2602.16301).
+
+It emphasizes persistent team memory and constructive quality pressure through history artifacts (`LEARNINGS.md`, phase files, and cycle outputs).  
+For optional implementation ideas, see `agents/quality-guardian.md` and `references/compound-advanced.md`.
 
 ## Multi-host usage notes
 

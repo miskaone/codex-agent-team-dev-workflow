@@ -15,6 +15,8 @@ related:
   - "[[knowledge/system]]"
   - "[[knowledge/coordinator-responsibilities]]"
   - "[[knowledge/customization]]"
+  - "[[agents/quality-guardian]]"
+  - "[[references/compound-advanced]]"
 schema: knowledge-map
 last_updated: 2026-02-21
 ---
@@ -39,5 +41,9 @@ last_updated: 2026-02-21
 - [[knowledge/coordinator-responsibilities]]
 - [[knowledge/customization]]
 - [[references/customization]]
+
+## Optional Patterns
+- [[agents/quality-guardian]]
+- [[references/compound-advanced]]
 
 Last revised: 2026-02-21

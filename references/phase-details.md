@@ -5,6 +5,8 @@ schema: skill-v1
 related:
   - "[[agent-team-dev-workflow]]"
   - "[[_MOCs/dev-workflow]]"
+  - "[[agents/quality-guardian]]"
+  - "[[references/compound-advanced]]"
 last_updated: 2026-02-21
 ---
 # Phase Details & Agent Specifications
@@ -31,7 +33,12 @@ Apply these defaults unless the task-specific policy explicitly changes them.
 - `test-writer`: write tests only from the plan's test strategy/contracts.
 - `verifier`: execute checks and verify criteria; never patch source code.
 - `security-reviewer`, `architecture-reviewer`, `code-quality-reviewer`: read and report findings only.
-- `knowledge-compounder`: update LEARNINGS/pitfalls/rules based on outcomes; no implementation changes.
+ - `knowledge-compounder`: update LEARNINGS/pitfalls/rules based on outcomes; no implementation changes.
+ - `quality-guardian`: optional role for constructive pressure on edge-cases and coverage.
+
+### Optional Advanced Reference Prompts
+- [[agents/quality-guardian]] — optional rigor-focused role for alternating-cycle diversity.
+- [[references/compound-advanced]] — optional enhancement prompt for compounding quality insights.
 
 Escalation protocol:
 - `SCOPE_ELEVATION`: role needs to exceed its boundary

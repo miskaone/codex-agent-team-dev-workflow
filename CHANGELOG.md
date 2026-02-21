@@ -6,6 +6,23 @@ All notable changes to this project will be documented in this file.
 
 - No unreleased changes yet.
 
+## [1.2.0] – 2026-02-21
+
+### Added
+- Complete `example-project/` skeleton (Todo CLI demo)
+- `agents/quality-guardian.md` and `references/compound-advanced.md` optional pattern nodes
+- Optional “Scientific Inspiration” notes in `README.md` and `SKILL.md`
+- Version bump to `1.2.0` with migration notes
+
+### Improved
+- README quick-start and usage clarity
+- Changelog structure and release notes consistency
+- Terminology and role framing for quality-focused collaboration
+
+### Changed
+- `SKILL.md` frontmatter version bumped to `1.2.0`
+
+## [1.1.0] - 2026-02-21
 ## [1.1.0] - 2026-02-21
 
 ### Added
