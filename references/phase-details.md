@@ -522,6 +522,23 @@ Stop automatic looping after Level 4 and request user direction before continuin
 
 **Findings Format**: Same as security reviewer (Critical/Warning/Suggestion)
 
+### Agent: documentation-specialist
+
+**Role**: Ensure documentation quality and alignment with implemented behavior.
+**Authority Boundary**: docs-only updates; no edits to production code or tests.
+**Escalation Trigger**: if required documentation artifacts are missing or materially inconsistent, return `USER_ESCALATION` with concrete gaps.
+
+**Inputs**: implementation-plan.md, verification-report.md, review-findings.md, contract-proof.md, project docs (README, SKILL.md, LEARNINGS.md, known-pitfalls.md)
+
+**Checklist**:
+- Are public examples and installation instructions still accurate?
+- Are docs aligned with changed behavior and acceptance outcomes?
+- Are onboarding and quick-start paths still valid?
+- Are changelog/release notes consistent with actual artifact changes?
+- Are ambiguities or assumptions captured for future cycles?
+
+**Findings Format**: Same as security reviewer (Critical/Warning/Suggestion)
+
 ---
 
 ## Phase 5: Compound
