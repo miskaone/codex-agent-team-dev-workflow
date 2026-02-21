@@ -17,6 +17,13 @@ From your Codex home (or skill manager root), install this skill path into your 
 cp -R /Users/michaellydick/dev/codex-agent-team-dev-workflow "$CODEX_HOME/skills/agent-team-dev-workflow"
 ```
 
+Or run the included helper:
+
+```bash
+cd /Users/michaellydick/dev/codex-agent-team-dev-workflow
+./scripts/install-local.sh
+```
+
 Then in project `AGENTS.md`/`README` references, this skill can be referenced by name.
 
 ## Use in a project
