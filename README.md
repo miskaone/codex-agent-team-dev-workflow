@@ -1,4 +1,6 @@
 # codex-agent-team-dev-workflow
+![Codex Skill](https://img.shields.io/badge/Codex-Skill-blue)
+
 
 This repository contains a self-contained Codex skill bundle for the **agent-team-dev-workflow**.
 
@@ -54,6 +56,17 @@ You can also pass an alternate CODEX home as the second argument:
 ```bash
 ./scripts/install-remote.sh git@github.com:you/agency-os-codex-skills.git /path/to/other/.codex
 ```
+
+## Quick Start (30-second demo)
+
+1. Open any Codex workspace
+2. Create or navigate to a project folder
+3. Say or type:  
+   `use agent-team-dev-workflow to add priority field to my todo CLI`
+4. Watch the full 6-phase cycle run automatically
+5. Check `.workflow/current/` and the updated `LEARNINGS.md`
+
+See [`example-project/`](./example-project/) for a complete working example.
 
 ## Multi-host usage notes
 
