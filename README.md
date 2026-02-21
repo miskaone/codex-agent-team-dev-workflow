@@ -3,11 +3,15 @@
 This repository contains a self-contained Codex skill bundle for the **agent-team-dev-workflow**.
 
 ## Contents
-- `SKILL.md` — skill entrypoint and workflow orchestration
-- `agents/` — agent role definitions/config for this workflow
-- `references/` — role prompts, patterns, templates, and operational guides
-- `scripts/` — supporting scripts (if present)
-- `assets/` — optional support assets
+- `SKILL.md` — compact graph entrypoint/redirect
+- `agent-team-dev-workflow.md` — compact hub with primary links
+- `_MOCs/` — master navigation map for this skill
+- `phases/` — atomic nodes for Discover → Plan → Work → Test → Review → Compound
+- `agents/` — atomic agent-role nodes
+- `modes/` — execution-mode selection nodes
+- `knowledge/` — operating-system nodes used by workflow logic
+- `references/` — preserved reference materials and templates, now with graph metadata
+- `scripts/` — install helpers
 
 ## Install into a Codex environment
 

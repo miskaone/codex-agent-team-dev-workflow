@@ -1,3 +1,12 @@
+---
+title: Customization
+description: Reference content for customization.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Customization
 
 How to adapt the workflow for different projects, teams, and task types.

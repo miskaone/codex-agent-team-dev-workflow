@@ -1,3 +1,12 @@
+---
+title: Architecture Reviewer
+description: Reference content for architecture reviewer.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Architecture Reviewer Agent
 
 Assess architectural quality and consistency with existing patterns.

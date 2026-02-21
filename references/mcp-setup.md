@@ -1,3 +1,12 @@
+---
+title: Mcp Setup
+description: MCP search setup and compatibility notes.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Code Search MCP Setup
 
 Optional but recommended: adding a semantic code search MCP server dramatically

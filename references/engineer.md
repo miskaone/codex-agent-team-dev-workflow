@@ -1,3 +1,12 @@
+---
+title: Engineer
+description: Reference content for engineer.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Engineer Agent
 
 Implement the plan task-by-task. Write production-quality code.

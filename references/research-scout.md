@@ -1,3 +1,12 @@
+---
+title: Research Scout
+description: Reference content for research scout.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Research Scout Agent
 
 Gather all relevant context before anyone writes a plan or touches code.

@@ -1,3 +1,12 @@
+---
+title: Contract Proof Template
+description: Template for proving phase tasks completed.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Contract Proof Template
 
 # Contract Proof

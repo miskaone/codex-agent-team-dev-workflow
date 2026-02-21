@@ -1,3 +1,12 @@
+---
+title: Phase Details
+description: Cross-cut concerns, per-phase behaviors, and role contracts.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Phase Details & Agent Specifications
 
 Complete reference for each phase's agents, inputs, outputs, and procedures.

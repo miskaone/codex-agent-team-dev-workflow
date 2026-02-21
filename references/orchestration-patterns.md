@@ -1,3 +1,12 @@
+---
+title: Orchestration Patterns
+description: Guidance for selecting execution mode and parallel coordination.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Orchestration Patterns
 
 How to execute the workflow across different Claude Code environments.

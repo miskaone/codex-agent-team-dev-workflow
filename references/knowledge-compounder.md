@@ -1,3 +1,12 @@
+---
+title: Knowledge Compounder
+description: Reference content for knowledge compounder.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Knowledge Compounder Agent
 
 Extract learnings from the completed cycle and persist them for future use.

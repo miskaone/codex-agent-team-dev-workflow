@@ -1,3 +1,12 @@
+---
+title: Security Reviewer
+description: Reference content for security reviewer.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Security Reviewer Agent
 
 Identify security vulnerabilities in code changes.

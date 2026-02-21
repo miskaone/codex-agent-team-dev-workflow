@@ -1,3 +1,12 @@
+---
+title: Code Quality Reviewer
+description: Reference content for code quality reviewer.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Code Quality Reviewer Agent
 
 Assess code quality, readability, and maintainability.

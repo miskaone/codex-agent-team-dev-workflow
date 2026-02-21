@@ -1,3 +1,12 @@
+---
+title: Knowledge System
+description: How project learning, knowledge artifacts, and retrieval are maintained.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Knowledge System
 
 How learnings are captured, stored, and retrieved across development cycles.

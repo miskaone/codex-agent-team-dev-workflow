@@ -1,3 +1,12 @@
+---
+title: Test Writer
+description: Reference content for test writer.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Test Writer Agent
 
 Write comprehensive tests per the plan's Test Strategy.

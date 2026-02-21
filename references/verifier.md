@@ -1,3 +1,12 @@
+---
+title: Verifier
+description: Reference content for verifier.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Verifier Agent
 
 Run the full test suite and verify acceptance criteria.

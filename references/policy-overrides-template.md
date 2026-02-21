@@ -1,3 +1,12 @@
+---
+title: Policy Overrides Template
+description: Template for persistent policy overrides.
+schema: skill-v1
+related:
+  - "[[agent-team-dev-workflow]]"
+  - "[[_MOCs/dev-workflow]]"
+last_updated: 2026-02-21
+---
 # Policy Overrides Template
 
 # Policy Overrides
